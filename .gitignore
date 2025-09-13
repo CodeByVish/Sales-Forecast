@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environments
+.venv/
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Confidential / large files
+config.yaml
+artifacts/private/**
+artifacts/**/checkpoints/**
+artifacts/**/runs/**
+models/**
+*.pkl
+*.joblib
+
+# Data (allow only synthetic examples)
+data/**
+!data/examples/**
