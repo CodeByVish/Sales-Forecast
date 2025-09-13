@@ -1,0 +1,7 @@
+model_dir: artifacts/public
+schema:
+  feature_cols:
+    - Total Contract Value (converted)
+    - Probability (%)
+    - Created Date
+    - Close Date
